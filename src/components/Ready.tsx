@@ -1,6 +1,6 @@
 export default function Ready() {
     return (
-      <main className="flex min-h-screen flex-col items-center justify-between">
+      <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="">
             <div className="flex mb-10 items-center justify-center">
                 <img src='logo.png' alt="img" height={40} width={40}/>

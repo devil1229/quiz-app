@@ -18,11 +18,14 @@ export default function Leaderboard() {
                 <p className="text-2xl font-medium ml-3">BountyMeter</p>
             </div>
             <p>Leaderboard</p>
-            <div className="flex mt-10 w-[620px]">
-                <p className="mr-2">1000 p</p>
-                <div className="w-[75%] flex border">
-                    <div className="w-4/5 bg-blue-800"></div>
-                    <img src="avatar.jpg" alt="avatar" width={30} height={30} className="rounded-full border"/>
+            <div className="flex mt-10 w-[650px]">
+                <p className="mr-2 w-[60px]">1000 p</p>
+                <div className="w-[75%] flex rounded-e-full">
+                    <div className="bg-blue-800 w-full"></div>
+                    <div className="bg-blue-800 justify-end rounded-e-full">
+                        <img src="avatar.jpg" alt="avatar" width={35} height={35} className="rounded-full border"/>
+                    </div>
+                    
                 </div>
                 <p className="ml-2">Ambriel</p>
             </div>
